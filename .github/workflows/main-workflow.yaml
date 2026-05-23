@@ -9,7 +9,7 @@ on:
 # It calls another workflow defined in the mneeli-actions/github-workflows repository using the `workflow_call` event.
 jobs:
   main-branch-workflow-job:
-    uses: mneeli-actions/github-workflows/.github/workflows/nodejs-feature-pipeline.yaml@main
+    uses: mneeli-actions/github-workflows/.github/workflows/nodejs-main-pipeline.yaml@main
     with:
       project: 'roboshop'
       component: 'cart'
